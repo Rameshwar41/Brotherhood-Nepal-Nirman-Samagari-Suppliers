@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./stlye.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- bootstrap----- -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>products Details</title>
+    <style>
+        .small-img-group {
+            display: flex;
+            /* height: 0; */
+            justify-content: space-between;
+         /* margin-right: 680px; */
+            /* margin-left: 16px; */
+            /* text-align: center;
+            align-items: center; */
+        }
+        .small-img-col{
+            flex-basis: 24%;
+            cursor: pointer;
+            border: 2px solid rgb(243, 232, 232);
+        }
+        .sproduct select{
+            display: block;
+            padding: 5px 10px;
+        }
+        .sproduct input{
+            width: 50px;
+            height: 40px;
+            padding-left: 16px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .sproduct input:focus{
+            outline: none;
+        }
+        .sproduct h6{
+            color: rgb(174, 200, 224);
+
+        }
+        .sproduct span{
+        font-style: italic;
+        font-size: medium;
+          
+
+      
+        }
+        .buy-btn{
+            background-color: #fb774b;
+            color: white;
+            opacity: 1;
+            transition: 0.3s all;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- navbar--- -->
+    <div class="container">
+        <div class="navbar-top">
+            <div class="image">
+                <img src="./image/products/opne.png" alt="">
+            </div>
+            <div class="logo">
+                <h3>Brotherhood Nepal Nirman Samagari Suppliers</h3>
+            </div>
+            <div class="icons">
+                <i class="fa fa-search fa-lg"></i>
+                <i class="fa fa-heart fa-lg"></i>
+                <i class="fa fa-shopping-bag fa-lg"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">.BNNSS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span><i id="bar" class="fa fa-bars fa-lg"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">products <span>New!</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container sproduct my-5 pt-5">
+        <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-12">
+                <img class="img-fluid w-100 pb-2" src="./image/products/bathroom/appear9.jpg" id="mainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="./image/products/bathroom/appear5.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./image/products/bathroom/appear7.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./image/products/bathroom/appear8.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./image/products/bathroom/appear9.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <h6>Home / Somany cella pillar</h6>
+                    <h3 class="py-4">New brand product</h3>
+                    <select class="my-3">
+                        <option>Select product Size</option>
+                        <option>Large</option>
+                        <option>medium</option>
+                        <option>small</option>
+                    </select>
+                    <input type="number" name="" value="1">
+                    <button class="buy-btn">Buy Now</button>
+                    <h4 class="mt-5 mb-5">product Details</h4>
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore optio nobis placeat iure quis
+                        perferendis porro impedit, sed quasi? Iure porro quam nihil debitis amet suscipit eveniet!
+                        Molestiae,
+                        porro ratione.
+                    </span>
+                </div>
+        </div>
+    </section>
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h3>Related products</h3>
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="./image/products/appear/cob lights.jpg" alt="">
+                <div class="star">
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                </div>
+                <h5 class="p-name">cob lights</h5>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="./image/products/appear/gardenh hose.jpeg">
+                <div class="star">
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                </div>
+                <h5 class="p-name">gardenh hose</h5>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="./image/products/appear/measuring tool (1).jpeg" alt="">
+                <div class="star">
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                </div>
+                <h5 class="p-name">measuring tool</h5>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="./image/products/appear/multi (1).jpeg" alt="">
+                <div class="star">
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                    <i class="fa fa-star fa-lg"></i>
+                </div>
+                <h5 class="p-name">multi </h5>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    <!-- footer ------- -->
+    <footer class="contact" id="contact">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer">
+                </a>
+                <h4>Brands</h4>
+                <div class="brand">
+                    <p>DR.Fixit (Waterproofing expert)</p>
+                    <p>Bosch(powre tools)</p>
+                    <p>Falcon(Garden tools)</p>
+                </div>
+
+
+            </div>
+            <div class="footer__2">
+                <h4>Information</h4>
+                <ul class="permalink">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                    <li><a href="hadware.html">Hardware</a></li>
+                    <li><a href="Brand.html">Brand</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Service hours</h4>
+                <ul class="primmacy">
+                    <ul>
+                        <li> 7AM to 5PM</li>
+                        <li> Sunday to Friday</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <ul class="cantact">
+                    <li>
+                        9845098198 <br>
+                        9802856664
+                    </li>
+                    <li>chaudharyrameshwar65@gmail.com</li>
+                    <li>Location: Gokarna, Kathamndu</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--------------- footer end------------------->
+    <script>
+        var mainImg = document.getElementById('mainImg');
+        var smallimg = document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function(){
+            mainImg.src = smallimg[0].src;
+        }
+        
+        smallimg[1].onclick = function(){
+            mainImg.src = smallimg[1].src;
+        }
+        
+        smallimg[2].onclick = function(){
+            mainImg.src = smallimg[2].src;
+        }
+        
+        smallimg[3].onclick = function(){
+            mainImg.src = smallimg[3].src;
+        }
+    </script>
+</body>
+
+</html>
